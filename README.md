@@ -60,7 +60,7 @@ AI Decision → Create Intent → EIP-712 Sign → Submit to CoW API → Solvers
 - Python 3.8+
 - Web3 wallet with private key
 - Base mainnet RPC access (Infura or similar)
-- BitQuery API key for market and liquidity data (create at https://account.bitquery.io/user/api_v2/access_tokens)
+- BItquery API key for market and liquidity data (create at https://account.BItquery.io/user/api_v2/access_tokens)
 - OpenAI API key or Anthropic API key
 - Initial USDC balance on Base chain
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ```
 
 3. Get API Keys
-- BitQuery: Create an API key at https://account.bitquery.io/user/api_v2/access_tokens
+- BItquery: Create an API key at https://account.BItquery.io/user/api_v2/access_tokens
 - OpenAI: Get your API key from https://platform.openai.com/api-keys
 - Anthropic (optional): Get from https://console.anthropic.com/
 - Infura: Get Base RPC endpoint from https://infura.io/
@@ -91,7 +91,7 @@ CHAIN_ID=8453
 PRIVATE_KEY=your_wallet_private_key
 ANTHROPIC_API_KEY=sk-ant-... (optional)
 OPENAI_API_KEY=sk-proj-...
-BITQUERY_API_KEY=ory_at_...
+BItquery_API_KEY=ory_at_...
 PORTFOLIO_SIZE_USD=10
 MAX_POSITION_SIZE_USD=1
 SLIPPAGE_TOLERANCE=1.0
@@ -121,7 +121,7 @@ Key settings can be configured via environment variables:
 
 - **RPC_URL**: Base mainnet RPC endpoint (Infura recommended)
 - **CHAIN_ID**: Blockchain chain ID (8453 for Base)
-- **BITQUERY_API_KEY**: Required for fetching trade and liquidity data
+- **BItquery_API_KEY**: Required for fetching trade and liquidity data
 - **AI provider**: Supports OpenAI (GPT-4o) or Anthropic (Claude)
 - **PORTFOLIO_SIZE_USD**: Maximum portfolio value in USD
 - **MAX_POSITION_SIZE_USD**: Maximum size per position in USD
