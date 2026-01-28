@@ -68,8 +68,8 @@ AI Decision → Create Intent → EIP-712 Sign → Submit to CoW API → Solvers
 
 1. Clone the repository
 ```bash
-git clone https://github.com/divyasshree-BQ/AI-crypto-trader-all-in-one
-cd AI-crypto-trader-all-in-one
+git clone https://github.com/divyasshree-BQ/AI-crypto-trader-all-in-one-CoW-Intent
+cd AI-crypto-trader-all-in-one-CoW-Intent
 ```
 
 2. Install dependencies
