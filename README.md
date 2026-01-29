@@ -2,6 +2,8 @@
 
 An autonomous crypto trading bot that uses AI (GPT-4o or Claude) to make trading decisions from market and liquidity data, and executes via **CoW Protocol** (MEV-protected intents and limit orders) on Base.
 
+Link to repo that uses RPC to execute trades [https://github.com/divyasshree-BQ/AI-crypto-trader-all-in-one](https://github.com/divyasshree-BQ/AI-crypto-trader-all-in-one)
+
 ## Features
 
 - AI-powered decision making using GPT-4o or Claude Sonnet
